@@ -1,5 +1,5 @@
 # 🚀 Lumia Send v1.0
-A lightweight, high-speed wireless photo transfer utility for Windows Phone 8.1. 
+A lightweight, high-speed wireless file transfer utility for Windows Phone 8.1. 
 
 Specifically optimized for the **Lumia 1020**, allowing you to beam 41MP high-resolution `.dng` and `.pro` files directly to your PC or Linux machine without cables.
 
