@@ -24,7 +24,7 @@ Specifically optimized for the **Lumia 1020**, allowing you to beam 41MP high-re
 1. Start the **receiver.exe** or **receiver.py** on your PC. It will display your **IP Address** and **Port**.
 2. Open **Lumia Send** on your phone.
 3. Enter the IP and Port provided by the PC.
-4. Select your photos and watch them fly!
+4. Select your files and watch them fly!
 
 ---
 *Maintained by Faizal. Keeping the Lumia legacy alive.*
