@@ -17,8 +17,8 @@ Specifically optimized for the **Lumia 1020**, allowing you to beam 41MP high-re
 
 ### 2. For the PC
 * Go to the `PC_Receiver` folder.
-* **Windows:** Run `LumiaReceiver.exe`.
-* **Linux/Python Users:** Run `python receiver.py`.
+* **Windows:** Run `receiver.exe`.
+* **Linux/Python Users:** Run `receiver.py`.
 
 ## 🛠 How to Use
 1. Start the **LumiaReceiver** on your PC. It will display your **IP Address** and **Port**.
