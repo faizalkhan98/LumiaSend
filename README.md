@@ -13,7 +13,7 @@ Specifically optimized for the **Lumia 1020**, allowing you to beam 41MP high-re
 
 ### 1. For the Phone
 * Download the `.appx` from the [Releases](https://github.com/faizalkhan98/LumiaSend/releases) section.
-* Sideload it using Windows Phone Internals or the WP SDK deployment tool.
+* Sideload it to your phone.
 
 ### 2. For the PC
 * Go to the `PC_Receiver` folder.
