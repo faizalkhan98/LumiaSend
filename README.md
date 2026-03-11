@@ -13,8 +13,7 @@ LumiaSend is a lightweight local server designed to make transferring text, link
 ## 📥 Installation
 1. Download this repo and extract it.
 2. Run `Install_Requirements.bat` to install Python dependencies.
-3. Run `receiver.exe` or `receiver.py` (or your compiled .exe launcher).
+3. Run `receiver.exe` or `receiver.py`.
 4. Enter the IP address shown on your PC into the Lumia app.
 
-## ⚖️ License
-Open-source for the Lumia Community.
+ENJOY!!
