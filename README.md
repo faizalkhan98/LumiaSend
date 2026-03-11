@@ -1,7 +1,7 @@
 # 📱 LumiaSend
 **Bridge the gap between your PC and your Windows Phone.**
 
-LumiaSend is a lightweight local server designed to make transferring text, links, and files to legacy Windows Phone 8.1 and Windows 10 Mobile devices effortless.
+LumiaSend is a lightweight local server designed to make transferring text, links, and files to legacy Windows Phone 8.1.
 
 
 
