@@ -1,30 +1,67 @@
-# 🚀 Lumia Send v1.0
-A lightweight, high-speed wireless file transfer utility for Windows Phone 8.1. 
+📱 LumiaSend
+Bridge the gap between your PC and your Windows Phone.
 
-Specifically optimized for the **Lumia 1020**, allowing you to beam 41MP high-resolution `.dng` and `.pro` or any other files directly to your PC or Linux machine without cables.
+LumiaSend is a lightweight local server designed to make transferring text, links, and files to legacy Windows Phone 8.1 and Windows 10 Mobile devices effortless. No cloud, no account—just pure local network speed.
 
-## ✨ Features
-* **Auto-Send:** Share files directly from the Lumia File Manager to start an instant transfer.
-* **Native Integration:** Matches your phone's system accent color.
-* **Pro Summary:** Shows transfer speeds and total data sent.
-* **Zero Dependency:** The PC receiver is a standalone tool—no installation required.
+🚀 Features
+Instant Text/Link Sharing: Send URLs or snippets from your PC to your phone's clipboard.
 
-## 📥 Installation
+File Transfers: Push photos, documents, and installers (.appx/.xap) directly to your device.
 
-### 1. For the Phone
-* Download the `.appx` from the [Releases](https://github.com/faizalkhan98/LumiaSend/releases) section.
-* Sideload it to your phone.
+Low Overhead: Runs on a tiny Python backend that doesn't slow down your PC.
 
-### 2. For the PC
-* Go to the `PC_Receiver` folder.
-* **Windows:** Run `receiver.exe`.
-* **Linux/Python Users:** Run `receiver.py`.
+Privacy Focused: Everything stays on your local Wi-Fi.
 
-## 🛠 How to Use
-1. Start the **receiver.exe** or **receiver.py** on your PC. It will display your **IP Address** and **Port**.
-2. Open **Lumia Send** on your phone.
-3. Enter the IP and Port provided by the PC.
-4. Select your files and watch them fly!
+🛠️ Requirements
+On your PC:
+Python 3.10+ (Ensure you check "Add to PATH" during installation)
 
----
-*Maintained by Faizal. Keeping the Lumia legacy alive.*
+Local Network: Both PC and Lumia must be on the same Wi-Fi.
+
+On your Lumia:
+InterOp Unlocked or Developer Mode enabled.
+
+Wi-Fi Connectivity.
+
+📥 Getting Started
+1. Installation
+The easiest way to set up the environment is to use the included batch script:
+
+Download this repository as a ZIP and extract it.
+
+Double-click Setup_LumiaSend.bat.
+
+If Python is missing, it will open the download page for you.
+
+Once the setup is complete, you are ready to go.
+
+2. Launching the Server
+Double-click LumiaSend_Launcher.exe (or run python server.py).
+
+A command window will open showing your Local IP Address (e.g., 192.168.0.167).
+
+3. Connect your Phone
+Open the LumiaSend app on your Windows Phone.
+
+Enter the IP Address shown on your PC screen into the app settings.
+
+Tap Connect.
+
+📂 Repository Structure
+/app: Contains the .appx / .xap files for the Lumia.
+
+/server: The Python backend files.
+
+Setup_LumiaSend.bat: One-click requirement installer.
+
+LumiaSend_Launcher.exe: The easy-start executable.
+
+server.py: The core server logic.
+
+⚖️ License
+This project is open-source and shared with the Lumia community. Feel free to modify and improve it!
+
+Pro-Tip for GitHub:
+When you upload your files, make sure to go to the "Releases" section on the right side of the GitHub page. Upload your LumiaSend_Launcher.exe and the .appx file there so people can find them easily without digging through the source code.
+
+Would you like me to write a short "Community Post" for Telegram or Reddit that links to this repository?
