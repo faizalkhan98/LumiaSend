@@ -6,7 +6,7 @@ LumiaSend is a lightweight local server designed to make transferring text, link
 
 
 ## 🚀 Features
-* **Instant Sharing:**Directly share any file from the file manager.
+* **Instant Sharing:** Directly share any file from the file manager.
 * **File Transfers:** Push photos and .appx installers directly to your device.
 * **No Cloud Required:** Everything stays on your local Wi-Fi.
 
